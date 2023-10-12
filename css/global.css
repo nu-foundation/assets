@@ -2489,6 +2489,11 @@ select {
   background-color: rgb(202 138 4 / var(--tw-bg-opacity));
 }
 
+.bg-zinc-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 24 27 / var(--tw-bg-opacity));
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -3423,6 +3428,11 @@ select {
   background-color: rgb(132 204 22 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-zinc-950:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(9 9 11 / var(--tw-bg-opacity));
+}
+
 .hover\:font-bold:hover {
   font-weight: 700;
 }
@@ -3577,6 +3587,10 @@ select {
 
 .focus-visible\:outline-lime-600:focus-visible {
   outline-color: #65a30d;
+}
+
+.focus-visible\:outline-zinc-900:focus-visible {
+  outline-color: #18181b;
 }
 
 @media (min-width: 640px) {
