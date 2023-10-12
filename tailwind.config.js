@@ -1,6 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./html/**/*.{html,js,php}"],
+  content: [
+	  "/var/www/dev.nu.community/**/*.{html,js,php}",
+	  "/var/www/nu.community/**/*.{html,js,php}",
+	  "/var/www/dev.nu.foundation/**/*.{html,js,php}",
+	  "/var/www/nu.foundation/**/*.{html,js,php}",
+	  "!**/node_modules/**/*",
+	  "!**/vendor/**/*",
+		   ],
   theme: {
 	  borderRadius: {
 		  DEFAULT: '24px',
