@@ -13,6 +13,15 @@ module.exports = {
 		  DEFAULT: '24px',
 		  full: '144px',
 	  },
+    extend: {},
+  },
+  plugins: [
+	  require('@tailwindcss/forms'),
+  ],
+}
+
+/**
+
 	  colors: {
 		  "primary": "#1c1917",
           "secondary": "#365314",
@@ -24,9 +33,4 @@ module.exports = {
           "warning": "#facc15",
           "error": "#fca5a5",
 	  },
-    extend: {},
-  },
-  plugins: [
-	  require('@tailwindcss/forms'),
-  ],
-}
+*/
